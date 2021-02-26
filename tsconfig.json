@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "moduleResolution": "node",
+    "rootDirs": ["/src", "/test", "/mock", "./types"],
+    "strict": true
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
+}
