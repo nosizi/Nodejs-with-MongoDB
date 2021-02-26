@@ -2,7 +2,7 @@ import express from 'express'
 
 const router = express.Router()
 
-router.post('/posts', (req, res) => {
+router.post('/article', (req, res) => {
 
 })
 
