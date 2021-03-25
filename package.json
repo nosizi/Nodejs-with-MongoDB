@@ -4,8 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --inspect src/app.js"
+    "start": "nodemon ./src/app.js"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
