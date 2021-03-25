@@ -4,7 +4,7 @@ const app = express()
 const cors = require('cors')
 app.use(cors())
 
-const ArticleApi = require('./api/article')
+const ArticleApi = require('./api/article.ts')
 app.use('/articles', ArticleApi)
 
 app.get('/', (req, res) => {

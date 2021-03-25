@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
-import ArticleSchema from '../schema/article'
+const mongoose = require('mongoose')
+const ArticleSchema = require('../schema/article')
 
 module.exports = mongoose.model('Article', ArticleSchema)
