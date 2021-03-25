@@ -1,5 +1,4 @@
-const express = require('express')
-
+import * as express from 'express'
 const router = express.Router();
 
 router.post("/article", () => {
@@ -10,4 +9,4 @@ router.get('/', (req, res) => {
   res.send('this is article data.')
 })
 
-module.exports = router;
+export default router;

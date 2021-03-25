@@ -1,7 +1,8 @@
-const express = require('express')
+import * as express from 'express'
+import * as cors from'cors'
+import mongoose from 'mongoose'
 
 const app = express()
-const cors = require('cors')
 app.use(cors())
 
 const ArticleApi = require('./api/article.ts')
@@ -11,7 +12,7 @@ app.get('/', (req, res) => {
   res.end('Hello World.')
 })
 
-const mongoose = require('mongoose')
+
 const CONNECT_URI = 'mongodb://localhost:27017/blog'
 mongoose.connect(CONNECT_URI, {
   useNewUrlParser: true,

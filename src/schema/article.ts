@@ -1,7 +1,8 @@
-const mongoose = require('mongoose')
+import * as mongoose from 'mongoose'
 
 const { Schema } = mongoose;
-module.exports = new Schema({
+
+export default new Schema({
   title: String,
   author: String,
   release: Date,

@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
-const ArticleSchema = require('../schema/article')
+import * as mongoose from 'mongoose'
+import ArticleSchema from '../schema/article'
 
-module.exports = mongoose.model('Article', ArticleSchema)
+export default mongoose.model('Article', ArticleSchema)
