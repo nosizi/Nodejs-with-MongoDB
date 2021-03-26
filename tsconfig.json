@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2020",
+    "target": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "node",
-    "rootDirs": ["/src", "/test", "/mock", "./types"],
-    "strict": true
+    "outDir": "dist",
+    "rootDirs": ["/src"],
+    "strict": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": ["./src"],
   "exclude": ["node_modules"]

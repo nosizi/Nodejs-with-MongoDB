@@ -5,7 +5,7 @@ router.post("/article", () => {
   console.log('post article now');
 });
 
-router.get('/', (req, res) => {
+router.get('/', (req: express.Request, res: express.Response) => {
   res.send('this is article data.')
 })
 

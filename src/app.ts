@@ -1,9 +1,8 @@
-import express from 'express'
-import cors from'cors'
-import mongoose from 'mongoose'
-import ArticleApi from './api/article.ts'
+import * as express from 'express'
+import * as cors from 'cors'
+import * as mongoose from 'mongoose'
+import ArticleApi from './api/article'
 
-console.log(cors)
 const app = express()
 app.use(cors())
 
